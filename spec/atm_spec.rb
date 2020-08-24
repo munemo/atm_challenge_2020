@@ -6,4 +6,10 @@ describe ATM do
         expect(subject.fund).to eq 50000
     end
 
+
+    it 'funds are reduced withdraw' do
+        subject.withdraw 45000 
+        expect(subject.fund).to eq 5000 
+    end
+
 end
