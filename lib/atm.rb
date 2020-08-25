@@ -12,5 +12,5 @@ class ATM
     
     def withdraw (amount)
         @fund -= amount
-    end
+   end
 end
