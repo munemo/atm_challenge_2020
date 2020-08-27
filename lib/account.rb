@@ -1,6 +1,6 @@
 class Account
 
-    attr_accessor :name, :account_status, :pin_code, :owner, :exp_date
+    attr_accessor :name, :account_status, :pin_code, :owner, :exp_date, :balance
 
     STANDARD_VALIDITY_YRS = 5
 
