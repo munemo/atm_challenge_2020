@@ -1,6 +1,6 @@
 require './lib/account.rb'
-
-describe Person_account do
+require 'date'
+describe Account do
 
     let(:person) {instance_double('Person', name: 'Thomas')}
     subject { described_class.new({owner: person}) }
@@ -21,7 +21,7 @@ describe Person_account do
     end
 
     it 'deactivates account using the instance method' do
-        Account.deactivate.subject
+        Account.deactivate(subject)
         expect(subject.account_status).to eq :deactivated
     end
 

@@ -1,4 +1,4 @@
-class Person_account
+class Account
 
     attr_accessor :name, :account_status, :pin_code, :owner, :exp_date
 
