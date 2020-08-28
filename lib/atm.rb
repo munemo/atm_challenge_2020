@@ -1,5 +1,5 @@
 class Atm
-  attr_accessor :funds
+  attr_accessor :funds, :balance
   require 'date'
 
   def initialize
@@ -73,6 +73,5 @@ class Atm
   def card_expired?(exp_date)
       Date.strptime(exp_date, '%m/%y') < Date.today
   end
-
 
 end
