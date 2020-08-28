@@ -35,11 +35,14 @@ def missing_owner
 
  def  deposit(amount)
 
-   @account == nil ?  missing_account : deposit_cash(cash)
+   @account == nil ?  missing_account : deposit_cash(amount)
  end
 
- def deposit_cash (cash)
-   account.balance += cash
+ def deposit_cash (amount)
+        
+   @account.balance += cash
+
+   @cash -=amount
  end
 
  
