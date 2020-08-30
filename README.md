@@ -6,7 +6,7 @@ Our code is for an ATM machine that lets the user withdraw and transfer money. I
 
 ## Dependencies
 
-Our code has was tested using rspec and developed with in Ruby.
+Our code was tested using rspec and developed with in Ruby.
 
 ## Setup
 
