@@ -1,9 +1,26 @@
-This Repo is for the ATM challenge in week 1.
+# This Repo is for the ATM challenge in week 1.
 
-What is an ATM?
-An ATM is a machine that lets the user withdraw and transfer money. It also lets the user check their balance without having to go to the bank. 
+## The Code
 
-User stories 
+Our code is for an ATM machine that lets the user withdraw and transfer money. It also lets the user check their balance without having to go to the bank.
+
+## Dependencies
+
+Our code has was tested using rspec and developed with in Ruby.
+
+## Setup
+
+To be updated
+
+## Instructions
+
+To be updated
+
+## License
+
+MIT-license
+
+## User stories
 
 As a user 
 I want to have a bank account
@@ -52,5 +69,3 @@ So that i can know if there is no owner
  As a user
  There must be money in the ATM
  So that can withdraw
-
- 
